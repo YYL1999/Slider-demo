@@ -26,7 +26,7 @@ var config = {
   entry: entry,
   output: {
     path: path.join(__dirname, outputPath),
-    filename: 'js/index.bundle.js',
+    filename: 'index.bundle.js',
     publicPath: isProduction()? 'http://localhost:3000/':'http://localhost:3000/',
   },
   module: {

@@ -63,8 +63,9 @@ export default class Slider extends Component {
           <ul style={{
               left: -100 * this.state.nowLocal + "%",
               transitionDuration: this.props.speed + "s",
-              width: this.props.items.length * 100 + "%"
-            }}>
+              width: this.props.items.length * 100 + "%",
+              hegiht:"auto"
+            }} className="slider_ul">
               {itemNodes}
           </ul>
           {this.props.arrows?arrowsNode:null}

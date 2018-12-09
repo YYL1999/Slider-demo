@@ -4,9 +4,10 @@
 }
 .slider {
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   position: relative;
-
+  text-align: center;
+  margin:0 auto;
   &>ul {
     height: auto;
     overflow: hidden;
@@ -74,5 +75,14 @@
         background: #ccc;
       }
     }
+  }
+  .slider_ul ul img{
+    height:auto;
+    width:auto;
+   
+  }
+  .slider_ul img{
+    // width:auto;
+    height:auto
   }
 }
