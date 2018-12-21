@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-require('./Slider.scss');
 
+import './Slider.less'
 import SliderItem from './SliderItem/SliderItem';
 import SliderDots from './SliderDots/SliderDots';
 import SliderArrows from './SliderArrows/SliderArrows';
